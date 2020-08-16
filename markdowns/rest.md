@@ -30,4 +30,4 @@ For example we have a product resource:
 
 As we discused above, the product is resource, we use /product to identify that resource and use GET, POST, PUT, DELETE operations to control that resource.
 
-In a banking system, we have many resources like customers, cards, and products, each of them must be controlled by one URN and a resource maybe embeded into another resource like /customers/1/cards but at a time we only use one URL to control one resource. How we can get cards with get customers information, impossible!, at least two requests.
+In a banking system, we have many resources like customers, cards, and products, each of them must be controlled by one URN and a resource maybe embeded into another resource like /customers/1/cards but at a time we only use one URL to control one resource. How we can get cards without get customers information, impossible!, at least two requests.
