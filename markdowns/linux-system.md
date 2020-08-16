@@ -140,6 +140,8 @@ Racecondition example:
     - Using a graph to detect and resolve deadlock -> hard to implement.
     - Using two phase locking.
 
+### Four conditions lead to deadlock
+
 ### Synchronization
 
 Semaphore is a variable used to control access to a common resource by multiple processes in a concurrent system such as a multitasking operating system

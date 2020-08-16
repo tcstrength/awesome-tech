@@ -1,0 +1,845 @@
+2020.08.15 18:10:16 INFO  started: Metals version 0.9.2 in workspace '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text' for client vscode.
+2020.08.15 18:10:17 INFO  time: initialize in 1.02s
+2020.08.15 18:10:22 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/l8/056m2lg54bb1fkqk_s_1r1gr0000gn/T/metals18205484153162028608/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.08.15 18:10:23 INFO  skipping build import with status 'Started'
+2020.08.15 18:10:26 INFO  [info] welcome to sbt 1.3.13 (Oracle Corporation Java 11.0.7)
+2020.08.15 18:10:27 INFO  no build target: using presentation compiler with only scala-library
+2020.08.15 18:10:28 INFO  [info] loading settings for project predictive-text-build from metals.sbt ...
+2020.08.15 18:10:29 INFO  [info] loading project definition from /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/project
+2020.08.15 18:10:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+Aug 15, 2020 6:10:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2020.08.15 18:10:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+Aug 15, 2020 6:10:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2020.08.15 18:10:31 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.08.15 18:10:33 INFO  [info] loading settings for project predictiveText from build.sbt ...
+2020.08.15 18:10:33 INFO  [info] set current project to Predictive Text (in build file:/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/)
+2020.08.15 18:10:40 INFO  [success] Generated .bloop/predictiveText.json
+2020.08.15 18:10:40 INFO  [success] Generated .bloop/predictiveText-test.json
+2020.08.15 18:10:40 INFO  [success] Total time: 7 s, completed Aug 15, 2020, 6:10:40 PM
+2020.08.15 18:10:40 INFO  build tool exit: 0
+2020.08.15 18:10:40 INFO  time: ran 'sbt bloopInstall' in 17s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/l8/056m2lg54bb1fkqk_s_1r1gr0000gn/T/bsp-launcher14072178027289420925/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/.bloop/predictiveText.json'
+[0m[32m[D][0m Loading project from '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/.bloop/predictiveText-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.11.
+[0m[32m[D][0m   => /Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.11/scala-compiler-2.12.11.jar
+[0m[32m[D][0m   => /Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11.jar
+[0m[32m[D][0m   => /Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.11/scala-reflect-2.12.11.jar
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/l8/056m2lg54bb1fkqk_s_1r1gr0000gn/T/bsp-launcher14072178027289420925/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/l8/056m2lg54bb1fkqk_s_1r1gr0000gn/T/bsp-launcher14072178027289420925/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.15 18:10:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tccuong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.08.15 18:10:46 ERROR Timeout waiting for 'build/initialize' response
+2020.08.15 18:10:46 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:309)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:249)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.08.15 18:11:59 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:12:02 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:12:10 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:12:19 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:12:24 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:13:15 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:13:24 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:13:37 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:14:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:14:35 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:14:41 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:14:42 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:14:45 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:09 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:15 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:19 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:21 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:21 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:29 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:37 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:15:55 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:16:07 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:16:12 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:16:19 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:16:26 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:16:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:16:34 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala' because it doesn't belong to a build target.
+2020.08.15 18:16:34 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:16:34 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala' because it doesn't belong to a build target.
+2020.08.15 18:16:46 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:17:17 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+Aug 15, 2020 6:17:20 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 6:17:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 6:17:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 6:17:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 6:17:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 6:17:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 6:17:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.08.15 18:17:22 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:17:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:17:33 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 18:17:38 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 18:18:24 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 18:18:47 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+something's wrong: no file:///Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala in () => <error>RangePosition(file:///Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala, 215, 223, 1108)
+2020.08.15 18:20:01 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:20:05 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:20:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:20:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:20:27 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:20:48 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:20:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:21:16 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:21:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:21:39 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:21:59 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:22:04 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:22:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:22:14 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala' because it doesn't belong to a build target.
+2020.08.15 18:23:06 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:23:15 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:23:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:23:46 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:23:52 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:23:54 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:24:05 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 18:24:11 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 18:24:17 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:25:45 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala' because it doesn't belong to a build target.
+2020.08.15 18:25:45 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala' because it doesn't belong to a build target.
+2020.08.15 18:25:51 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala' because it doesn't belong to a build target.
+2020.08.15 18:25:59 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/filters/BloomFilter.scala
+2020.08.15 18:26:05 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 18:26:06 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala' because it doesn't belong to a build target.
+2020.08.15 18:26:06 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 18:26:13 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:00:02 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/BloomFilter.scala
+2020.08.15 19:00:04 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/BloomFilter.scala
+2020.08.15 19:00:05 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:00:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:00:12 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:00:12 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:00:59 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:20 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:26 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:33 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:38 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:45 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:50 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:55 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:01:58 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:02:00 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:22:11 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:22:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:22:36 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:22:41 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+Aug 15, 2020 7:22:46 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 7:22:46 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 7:22:46 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 7:22:46 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.08.15 19:22:48 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:22:49 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:22:51 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:23:01 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:23:01 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:39:24 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:40:02 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:40:06 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:40:07 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:40:28 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:40:40 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:07 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:13 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:19 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:28 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+Aug 15, 2020 7:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3223
+2020.08.15 19:41:36 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:38 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:41 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:44 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:41:55 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:00 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:11 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:23 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:33 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:35 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:39 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:42 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:42:52 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:16 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:18 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:26 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:43:26 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:26 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:43:30 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:43:30 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:43:31 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:36 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:38 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:45 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:43:45 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:43:53 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:43:53 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:44:00 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:44:12 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:44:58 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:45:03 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:45:13 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:45:36 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:45:46 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:45:49 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:45:50 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:46:09 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:46:16 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:46:22 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:46:43 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:46:54 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:47:01 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:47:48 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:47:54 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:47:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:48:23 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:48:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:48:41 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:49:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:49:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:50:23 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:50:23 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:51:21 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:51:33 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:51:49 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:51:49 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:52:04 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:52:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:52:15 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:52:47 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:53:03 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:53:19 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:53:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:53:29 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:53:29 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:53:29 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 19:53:29 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+something's wrong: no file:///Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala in () => <error>RangePosition(file:///Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala, 145, 147, 147)
+2020.08.15 19:53:47 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:54:03 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:54:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:54:36 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:54:43 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:54:47 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:55:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:55:36 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:55:42 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:55:43 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:56:01 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:56:16 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 19:56:28 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:56:43 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:56:50 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:57:21 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:57:31 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:58:04 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:58:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:59:09 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 19:59:38 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:00:02 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:00:02 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:01:00 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:01:00 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:01:21 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:01:34 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:01:57 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:02:03 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:02:24 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:02:28 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:02:44 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala' because it doesn't belong to a build target.
+2020.08.15 20:02:44 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:03:07 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:19 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:22 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:25 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:03:25 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:03:28 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:03:28 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:03:29 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:31 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:03:31 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:31 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:03:34 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:34 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:03:42 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:03:48 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:04:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:04:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:04:28 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:04:55 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala' because it doesn't belong to a build target.
+2020.08.15 20:04:58 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:05:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:05:43 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:05:49 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:06:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:06:11 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+Aug 15, 2020 8:06:36 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 8:06:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.15 20:06:42 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:06:44 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:06:51 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:07:05 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:07:38 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:07:44 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:11:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:12:07 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+Aug 15, 2020 8:12:12 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:12:12 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:12:12 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:12:12 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:12:12 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:12:12 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.08.15 20:12:13 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:12:17 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:12:22 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:13:03 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:13:23 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:13:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:13:46 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:13:52 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:14:03 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:14:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:14:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:14:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:15:37 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:15:43 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:15:47 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:15:53 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:15:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:16:16 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:16:30 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:16:34 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:16:58 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:17:11 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:17:20 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:17:37 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:17:45 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+Aug 15, 2020 8:17:54 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:17:55 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:17:55 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Aug 15, 2020 8:17:55 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:504)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.08.15 20:17:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:17:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:18:02 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:18:15 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:18:22 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:18:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:18:56 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:19:01 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:19:08 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:19:08 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:19:10 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:19:32 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:20:16 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:20:21 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:20:35 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:21:01 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:21:09 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:21:27 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:21:41 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:21:42 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:21:53 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:21:55 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:22:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+Aug 15, 2020 8:22:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8882
+2020.08.15 20:22:51 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:22:59 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:23:26 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:23:27 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:23:29 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:23:38 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:23:52 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:23:52 WARN  code navigation does not work for the file '/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala' because it doesn't belong to a build target.
+2020.08.15 20:24:17 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:04 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:15 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:18 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:26 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:28 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+something's wrong: no file:///Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala in scala.collection.mutable.ListBuffer[String]RangePosition(file:///Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala, 1804, 1804, 1822)
+2020.08.15 20:25:45 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:47 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:49 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:25:59 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:26:06 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:26:11 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:26:17 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:26:21 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:26:58 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:27:09 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:27:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:27:14 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:27:19 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/Main.scala
+2020.08.15 20:29:16 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:29:24 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:29:29 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:29:31 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:29:34 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:29:36 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:29:47 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:29:48 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:30:07 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:30:25 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:32:09 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.15 20:32:12 WARN  no build target for: /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala
+2020.08.16 08:28:04 INFO  shutting down Metals

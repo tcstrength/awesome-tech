@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/predictive-text_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/classes/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/classes/Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/classes/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	algo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/classes/algo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	algo/TrieNode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/classes/algo/TrieNode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	algo/BloomFilter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/classes/algo/BloomFilter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	algo/Trie.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/classes/algo/Trie.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

@@ -1,0 +1,148 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "predictiveText",
+        "directory": "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text",
+        "workspaceDir": "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text",
+        "sources": [
+            "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala-2.12",
+            "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala",
+            "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/java",
+            "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11.jar"
+        ],
+        "out": "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/.bloop/predictiveText",
+        "classesDir": "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/.bloop/predictiveText/scala-2.12/classes",
+        "resources": [
+            "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/resources",
+            "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.11",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.11/scala-compiler-2.12.11.jar",
+                "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11.jar",
+                "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.11/scala-reflect-2.12.11.jar",
+                "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+            ],
+            "analysis": "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.11",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/tccuong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

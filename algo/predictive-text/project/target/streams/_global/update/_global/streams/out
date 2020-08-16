@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/project/"), "predictive-text-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/project/"), "predictive-text-build")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
