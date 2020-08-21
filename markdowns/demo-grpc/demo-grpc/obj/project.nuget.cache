@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "BHwuIp7D0Kj/HnaGcBpzDzzbVje43yQrsilA5PcgHARhqxssGeZvte3OQx3QTfQ9iR5KW32MGi7Jn9RgRmk5fA==",
+  "success": true,
+  "projectFilePath": "/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/markdowns/demo-grpc/demo-grpc/demo-grpc.csproj",
+  "expectedPackageFiles": [
+    "/Users/tccuong/.nuget/packages/grpc/2.31.0/grpc.2.31.0.nupkg.sha512",
+    "/Users/tccuong/.nuget/packages/grpc.core/2.31.0/grpc.core.2.31.0.nupkg.sha512",
+    "/Users/tccuong/.nuget/packages/grpc.core.api/2.31.0/grpc.core.api.2.31.0.nupkg.sha512",
+    "/Users/tccuong/.nuget/packages/grpc.tools/2.31.0/grpc.tools.2.31.0.nupkg.sha512",
+    "/Users/tccuong/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

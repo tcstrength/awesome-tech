@@ -9,3 +9,9 @@ compile
 reload
 compile
 run
+compile
+run
+sbt
+run
+ls
+run

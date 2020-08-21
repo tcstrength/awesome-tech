@@ -1,9 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala:85:33: not enough arguments for method _searchWords: (root: algo.TrieNode, partStr: String, results: scala.collection.mutable.ListBuffer[String])scala.collection.mutable.ListBuffer[String].[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter results.[0m
-[0m[[0m[31merror[0m] [0m[0m                    _searchWords(c, results)[0m
-[0m[[0m[31merror[0m] [0m[0m                                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/Trie.scala:101:28: not enough arguments for method _searchWords: (root: algo.TrieNode, partStr: String, results: scala.collection.mutable.ListBuffer[String])scala.collection.mutable.ListBuffer[String].[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter results.[0m
-[0m[[0m[31merror[0m] [0m[0m        return _searchWords(charRoot, results).toList[0m
-[0m[[0m[31merror[0m] [0m[0m                           ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/algo/predictive-text/src/main/scala/algo/hashtable/OpenAddrHashTable.scala:33:17: not found: value ++[0m
+[0m[[0m[31merror[0m] [0m[0m                ++count[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
