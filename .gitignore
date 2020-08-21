@@ -25,3 +25,6 @@ target/
 .worksheet
 .DS_Store
 data.txt
+project
+.vscode
+.metals
