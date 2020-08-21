@@ -2,8 +2,10 @@
 
 ## Contents
 
-[Bash shell](markdowns/bash-shell.md)
+1. [Bash shell](markdowns/bash-shell.md)
 
-[Linux system](markdowns/linux-system.md)
+2. [Linux system](markdowns/linux-system.md)
 
-[REST](markdowns/rest.md)
+3. [REST](markdowns/rest.md)
+
+4. [Probabilistic data structures](markdowns/prob-data-structures.md)

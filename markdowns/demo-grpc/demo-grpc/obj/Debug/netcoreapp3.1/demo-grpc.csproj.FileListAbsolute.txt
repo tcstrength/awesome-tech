@@ -1,5 +1,0 @@
-/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/markdowns/demo-grpc/demo-grpc/obj/Debug/netcoreapp3.1/demo-grpc.csprojAssemblyReference.cache
-/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/markdowns/demo-grpc/demo-grpc/obj/Debug/netcoreapp3.1/demo-grpc.AssemblyInfoInputs.cache
-/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/markdowns/demo-grpc/demo-grpc/obj/Debug/netcoreapp3.1/demo-grpc.AssemblyInfo.cs
-/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/markdowns/demo-grpc/demo-grpc/obj/Debug/netcoreapp3.1/demo-grpc.csproj.CoreCompileInputs.cache
-/Users/tccuong/Documents/Projects/com.github.tcstrength.awesome-tech/markdowns/demo-grpc/demo-grpc/obj/Debug/netcoreapp3.1/demo-grpc.MvcApplicationPartsAssemblyInfo.cache
