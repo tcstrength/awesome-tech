@@ -1,10 +1,15 @@
 # Spring Framework
 
+## References
+
+* [Vietnamese tutorial](https://loda.me/spring-boot/2)
+* [English tutorial](https://www.tutorialspoint.com/spring_boot/index.htm)
+
 ## Table of Contents
 
-- [What is Spring](#what-is-spring)
-- [Why to learn Spring](#why-to-learn-spring)
-- [Applications of Spring](#applications-of-spring)
+* [What is Spring](#what-is-spring)
+* [Why to learn Spring](#why-to-learn-spring)
+* [Applications of Spring](#applications-of-spring)
 
 ## What is Spring
 

@@ -24,5 +24,8 @@
 ## Frameworks
 
 - [Spring](markdowns/spring.md): Spring Framework & Spring Boot, an example of Spring Boot web service.
+  - [Spring Exception Handler](markdowns/spring-exception-handler.md): An example of exception handler while running Spring Application.
+  - [Spring Interceptor vs Filter](markdowns/spring-interceptor-vs-filter.md): A simple look at Interceptors and Filters.
+  - [Spring File Handling](markdowns/spring-file-handling.md): Show you how to handle uploading/downloading a file.
 - [Apache Spark](markdowns/spark.md)
 
