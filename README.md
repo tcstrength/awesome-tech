@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [LinuxWord](#linux)
+- [LinuxWorld](#linux)
 - [API](#api)
 - [Algorithms](#algorithms)
 - [Frameworks](#frameworks)
